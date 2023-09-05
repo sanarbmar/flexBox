@@ -1,0 +1,12 @@
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;/* | row-reverse | column | column-reverse; */
+    flex-wrap: nowrap; /* | wrap | wrap-reverse; */
+    border: 2px solid blue;
+    width: 500px;
+  }
+
+.item{
+    border: 3px solid red;
+    width: 50px;
+}
