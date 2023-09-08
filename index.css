@@ -1,4 +1,26 @@
+:root{
+    --darkcolor:#04001e;
+    --lightcolor:#DFFBFF;
+    --primarycolor:#db086f;
+}
+body{
+    background-color: var(--darkcolor);
+    color: var(--lightcolor);
+    font-family: system-ui;
+}
+a{
+    color: var(--lightcolor);
+}
+.wrapper{
+    max-inline-size: 64rem; /* 16*64 = 1024 es el ancho maximo para esa area */
+    margin: auto;
+    counter-increment: flex-items;
+}
+
 .box{
-    display: inline-flex;
-    border: 2px solid red;
+    border: 5px dashed var(--primarycolor);
+    padding: 1rem;
+}
+.box::after{
+    content: counter(flex-items);
 }
