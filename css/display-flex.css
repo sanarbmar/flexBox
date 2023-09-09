@@ -1,0 +1,9 @@
+.displayFlex{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.displayFlex .box + .box{  /* una caja que este al lado e otra caja */
+    margin-inline-start: 1rem;
+}
