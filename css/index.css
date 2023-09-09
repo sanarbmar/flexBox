@@ -3,6 +3,8 @@
 @import './flex-direction.css';
 @import './flex-wrap.css';
 @import './flex.css';
+@import './justifyContent.css';
+@import './alignItems.css';
 :root{
     --darkcolor:#04001e;
     --lightcolor:#DFFBFF;
