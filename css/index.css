@@ -1,6 +1,8 @@
 @import './display-flex.css';
 @import './flex-order.css';
 @import './flex-direction.css';
+@import './flex-wrap.css';
+@import './flex.css';
 :root{
     --darkcolor:#04001e;
     --lightcolor:#DFFBFF;

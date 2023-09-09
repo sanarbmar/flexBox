@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    background: purple;
+}
+.flex > *{
+    /* border: 1px solid red !important;
+    flex-grow:2; */
+    /* flex-shrink: ; */
+    /* flex-basis: 100px; */ /* tiene por default el valor de auto */
+    /* padding: 1rem !important; */
+}
+.flex > p{
+    /* flex-grow: 1;
+    border: 1px solid green !important;
+    flex-basis: 50px; */
+}
+.flex > img{
+    inline-size: 200px;
+    flex-shrink: 0;  /* por defecto esta en 1 */
+}
+
+.flex > div{
+    border: 1px solid red;
+    flex-basis: 100%;
+    flex: 1;  
+    /* flex-grow:1; 
+    flex-shrink:1;
+    flex-basis: 0%; */
+}
