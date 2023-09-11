@@ -21,7 +21,7 @@
 
 .flex > div{
     border: 1px solid red;
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     flex: 1;  
     /* flex-grow:1; 
     flex-shrink:1;
